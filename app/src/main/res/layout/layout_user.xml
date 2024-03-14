@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTen"
+        android:layout_width="199dp"
+        android:layout_height="35dp"
+        android:text="HoTen" />
+
+    <TextView
+        android:id="@+id/tvTuoi"
+        android:layout_width="85dp"
+        android:layout_height="35dp"
+        android:text="Tuoi" />
+
+    <TextView
+        android:id="@+id/tvGioiTinh"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Gioi tinh" />
+</LinearLayout>

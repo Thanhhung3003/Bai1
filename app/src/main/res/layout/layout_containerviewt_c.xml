@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#381C78"
+        android:text="FragmentContainerViewC"
+        android:textSize="30dp" />
+
+
+    <FrameLayout
+        android:id="@+id/FrameAdd_C"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btnAddC"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="#AFA29E"
+        android:text="ADD Fragment_C"/>
+
+</LinearLayout>
